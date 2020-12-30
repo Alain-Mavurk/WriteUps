@@ -4,18 +4,18 @@
 
 ## Contents
 
-- [**About Box**](#About%20Box)
+- [**Box**](#Box)
 - [**Profile**](#Profile)
 - [**Enumeration**](#Enumeration)
 - [**Exploitation**](#Exploitation)
 - [**Post-exploitation**](#Post-exploitation)
-  - [**Own User**](#Own%20User)
-  - [**Own Root**](#Own%20Root)
+  - [**User**](#User)
+  - [**Root**](#Root)
 
 
 
 
-## About Box
+## Box
 
  ![](img/about_box.png)
 
@@ -155,7 +155,7 @@ Go to `c:\Users` to list the user, see that is **robisl**, after that, i continu
 
 ## Post-exploitation
 
-### Own User
+### User
 
 I tried to use a windows remote management tool called **evil-winrm** to create remote connection to **robisl** account: 
 
@@ -169,7 +169,7 @@ evil-winrm -i devops.worker.htb -u robisl -p wolves11
 
 
 
-### Own Root
+### Root
 
 First, i connected to **robisl** account on `devops.worker.htb`, and after some searches, i found that i can trigger powershell command remotely with administrator privileges.
 

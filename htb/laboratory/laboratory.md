@@ -4,19 +4,19 @@
 
 ## Contents
 
-- [**About Box**](#About%20Box)
+- [**Box**](#Box)
 - [**Profile**](#Profile)
 - [**Enumeration**](#Enumeration)
 - [**Exploitation**](#Exploitation)
 - [**Post-exploitation**](#Post-exploitation)
-  - [**Own User**](#Own%20User)
-  - [**Own Root**](#Own%20Root)
+  - [**User**](#User)
+  - [**Root**](#Root)
 
 - [**Mitigation**](#Mitigation)
 
 
 
-## About the box
+## Box
 
 [![](img/box_info.png)]()
 
@@ -131,7 +131,7 @@ After that, i got the reverse shell:
 
 ## Post-exploitation
 
-### Own User
+### User
 
 I know we are in the gitlab server which handles the website. I also know the username name of the user we got in the gitlab website: Dexter.
 
@@ -153,7 +153,7 @@ I dowloaded this file and used it for the ssh connection, and it worked again:
 
 
 
-### Own Root
+### Root
 
 First, i launched a linPEAS to enumerate possible privesc. After a few looks, i found an unusual **SUID** binary file:
 
