@@ -4,13 +4,13 @@
 
 ## Contents
 
-- [**About Box**](#About Box)
+- [**About Box**](#"About Box")
 - [**Profile**](#Profile)
 - [**Enumeration**](#Enumeration)
 - [**Exploitation**](#Exploitation)
 - [**Post-exploitation**](#Post-exploitation)
-  - [**Own User**](#Own User)
-  - [**Own Root**](#Own Root)
+  - [**Own User**](#"Own User")
+  - [**Own Root**](#"Own Root")
 
 - [**Mitigation**](#Mitigation)
 
