@@ -135,7 +135,7 @@ After that, i got the reverse shell:
 
 I know we are in the gitlab server which handles the website. I also know the username name of the user we got in the gitlab website: Dexter.
 
-So, i after a few research, i learned that i can easily edit the user password using `gitlab-rails console`:
+So, after a few research, i learned that i can easily edit the user password using `gitlab-rails console`:
 
 <img src="img/edit_dexter_password.png" style="zoom:100%;" />
 
@@ -167,7 +167,7 @@ I tried to read readable ASCII character using `strings` command in my kali and 
 
 So, here we can conclude that chmod command is launched without the absolute path from the `docker-security` script with the root privilege because of the **SUID** permission.
 
-I decided to create a custom script named `chmod` and add the temperally directory to the `PATH` to execute my script instead of `/bin/chmod`. I just used `/bin/bash -i` to launch an interactive bash shell:
+I decided to create a custom script named `chmod` and add the temporarily directory to the `PATH` to execute my script instead of `/bin/chmod`. I just used `/bin/bash -i` to launch an interactive bash shell:
 
 ![](img/chmod_script.png)
 
