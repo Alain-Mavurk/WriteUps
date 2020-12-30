@@ -113,7 +113,7 @@ So, i have access to the website git repository, and for all user found previous
 
 
 
-After that, i had to validate a pull request to merge the temperaly branch to the master branch:
+After that, i had to validate a pull request to merge the temporarily branch to the master branch:
 
  ![](img/pull.png)
 
